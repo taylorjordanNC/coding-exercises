@@ -1,32 +1,29 @@
 #!/bin/bash
 
-options=("rock" "paper" "scissors")
-computer_choice=${options[$RANDOM % 3]}
+# === 🎯 ROCK PAPER SCISSORS - BASH VERSION ===
+# 
+# Start by asking Continue's chat:
+# "Create a Bash script for rock paper scissors that:
+# - Uses an array ('rock' 'paper' 'scissors') and $RANDOM to pick computer choice
+# - Reads user input with read -p
+# - Uses if/elif statements to compare choices and determine winner
+# - Shows both choices and declares the result with emojis
+# - Handles all the rock paper scissors game logic"
+# You can directly copy and paste the above into the chat interface in the left-hand sidebar.
+# After Continue creates your script, you can copy and paste it into this file and/or you can enhance it further!
 
-read -p "Choose rock, paper, or scissors: " user_choice
-echo "Computer chose: $computer_choice"
+# 🛠️ Once you have working code, try these Continue features:
+# - In the Chat: Ask "How can I add score tracking?" or "How do I create Bash functions?"
+# - Highlight any section → "Add Highlighted Code to Context" → Ask about the logic
+# - Highlight any section → "Edit Highlighted Code" → "make this more readable"
+# - Highlight the entire script → "Optimize this Code" for better structure
+# - Highlight complex sections → "Write Comments for this Code" for clarity
 
-if [[ "$user_choice" == "$computer_choice" ]]; then
-    echo "It's a tie!"
-elif [[ ("$user_choice" == "rock" && "$computer_choice" == "scissors") ||
-        ("$user_choice" == "paper" && "$computer_choice" == "rock") ||
-        ("$user_choice" == "scissors" && "$computer_choice" == "paper") ]]; then
-    echo "You win! 🎉"
-else
-    echo "You lose! 😢"
-fi
-
-# 🛠️ Try using these Continue code extension features:
-# - Use "Ask" to turn the game logic into a reusable function
-# - Ask: "How can I let the user play multiple rounds and track their score?"
-# - Highlight the if/elif/else block and use "Explain this" to break down the win conditions
-# - Try "Refactor this" to make the conditionals easier to read or modular
-# - Ask Continue: "Add a random taunt or cheer based on the result" or "Color the output using ANSI codes"
-
-# === 💡 Extending the Application ===
-# Try these with Continue after the game works:
-# - Add a “best of 3” or endless mode with a scoreboard
-# - Handle case-insensitive input (e.g. Rock, ROCK, rock)
-# - Add emojis or color-coded output for more fun 🎨
-# - Include a countdown before revealing the computer’s choice ⏱️
-# - Store results in a log file or display player win rate
+# === 💡 Ideas to Enhance Your Game ===
+# Ask Continue's chat to help you add these features:
+# - Best of 3 or endless mode with scoreboard tracking
+# - Case-insensitive input handling (Rock, ROCK, rock all work)
+# - ANSI color codes for colorful win/lose messages
+# - Countdown timer before revealing computer's choice
+# - Game statistics logged to a file
+# - Different computer AI strategies (not just random)

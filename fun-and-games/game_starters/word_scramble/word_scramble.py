@@ -1,33 +1,30 @@
-import random
-
-word = "python"
-scrambled = ''.join(random.sample(word, len(word)))
-print(f"Unscramble this word: {scrambled}")
-
-while True:
-    guess = input("Your guess (or type 'quit' to exit): ").strip().lower()
-    if guess == "quit":
-        print("The correct word was:", word)
-        break
-    elif guess == word:
-        print("🎉 You got it!")
-        break
-    else:
-        print("Not quite, try again!")
+# === 🎯 WORD SCRAMBLE GAME - PYTHON VERSION ===
+# 
+# Start by asking Continue's chat:
+# "Create a Python script for a word scramble game that:
+# - Takes a word (like 'python') and scrambles the letters randomly using random.sample()
+# - Shows the scrambled word to the user
+# - Lets the user guess the original word
+# - Keeps asking until they get it right or type 'quit'
+# - Shows a celebration message when they win"
+# You can directly copy and paste the above into the chat interface in the left-hand sidebar.
+# After Continue creates your script, you can copy and paste it into this file and/or you can enhance it further!
 
 
-# 🛠️ Try using these Continue code extension features:
-# - Use "Ask" to turn the scrambling logic into a reusable function
-# - Ask: "How can I make this work with a list of words instead of just one?"
-# - Highlight the while loop and use "Explain this" to better understand the input logic
-# - Use "Improve this code" or "Refactor this" to make it cleaner or more modular
-# - Ask Continue: "Make the game more engaging with fun prompts and encouragement"
+# 🛠️ Once you have working code, try these Continue features:
+# - In the Chat: Ask "How can I add a list of words?" or "How do I implement score tracking?"
+# - Highlight any section → "Add Highlighted Code to Context" → Ask about random.sample()
+# - Highlight any section → "Edit Highlighted Code" → "add difficulty levels"
+# - Highlight the entire script → "Optimize this Code" for better structure
+# - Highlight any section → "Fix this Code" to check for edge cases
 
-# === 💡 Extending the Application ===
-# Try these with Continue after the game works:
-# - Add a “best of 3” or score-tracking feature across multiple rounds
-# - Give playful hints like “It starts with ‘p’...” or “You’re getting warmer 🔥”
-# - Add emojis 🎉 or terminal color for win/loss messages for a more dynamic experience
+# === 💡 Ideas to Enhance Your Game ===
+# Ask Continue's chat to help you add these features:
+# - A list of words that get randomly selected each game
+# - Score tracking across multiple rounds with leaderboard
+# - Hint system that reveals letters after wrong guesses
+# - Different difficulty levels (short vs long words)
+# - Terminal colors using colorama library for better UX
 
 
 

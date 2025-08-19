@@ -1,44 +1,30 @@
 #!/bin/bash
 
-score=0
+# === 🎯 SIMPLE QUIZ GAME - BASH VERSION ===
+# 
+# Start by asking Continue's chat:
+# "Create a Bash quiz script that:
+# - Has 3 hardcoded questions with answers
+# - Uses read -p to get user input
+# - Uses ${variable,,} to convert answers to lowercase for comparison
+# - Tracks score with a counter variable and ((score++)) increment
+# - Uses if statements with [[ ]] for string comparison
+# - Shows the final score at the end"
+# You can directly copy and paste the above into the chat interface in the left-hand sidebar.
+# After Continue creates your script, you can copy and paste it into this file and/or you can enhance it further!
 
-read -p "What is the capital of France? " a1
-if [[ "${a1,,}" == "paris" ]]; then
-  echo "Correct!"
-  ((score++))
-else
-  echo "Incorrect. The answer is Paris."
-fi
+# 🛠️ Once you have working code, try these Continue features:
+# - In the Chat: Ask "How can I create Bash functions?" or "How do I use arrays for questions?"
+# - Highlight any section → "Add Highlighted Code to Context" → Ask about functions
+# - Highlight any section → "Edit Highlighted Code" → "simplify this pattern"
+# - Highlight the entire script → "Optimize this Code" for better structure
+# - Highlight complex sections → "Write Comments for this Code" for clarity
 
-read -p "What does CPU stand for? " a2
-if [[ "${a2,,}" == *"central processing unit"* ]]; then
-  echo "Correct!"
-  ((score++))
-else
-  echo "Incorrect. The answer is Central Processing Unit."
-fi
-
-read -p "What language is known for indentation? " a3
-if [[ "${a3,,}" == "python" ]]; then
-  echo "Correct!"
-  ((score++))
-else
-  echo "Incorrect. The answer is Python."
-fi
-
-echo ""
-echo "Your final score: $score/3"
-
-# 🛠️ Try using these Continue code extension features:
-# - Use "Ask" to convert repeated logic into a reusable Bash function for each question
-# - Ask: "How can I store the questions and answers in an array or file?"
-# - Highlight the conditional blocks and use "Explain this" to break down comparison logic
-# - Try "Improve this code" or "Refactor this" to simplify the score-checking pattern
-# - Ask Continue: "Add dynamic messages" or "Make feedback more expressive and fun"
-
-# === 💡 Extending the Application ===
-# Try these with Continue after the quiz works:
-# - Add more questions and shuffle their order
-# - Accept partial or case-insensitive answers more flexibly
-# - Add emoji-based feedback (✅, ❌) or use terminal color to highlight responses
-# - Show encouragement based on final score (e.g. “🎉 Great job!” or “📘 Study time!”)
+# === 💡 Ideas to Enhance Your Game ===
+# Ask Continue's chat to help you add these features:
+# - Question bank stored in Bash arrays, randomly shuffled
+# - More flexible answer checking (partial matches, multiple correct answers)
+# - Emoji feedback (✅ ❌) and ANSI color codes for visual appeal
+# - Score-based encouragement messages
+# - Question categories with different difficulty levels
+# - File-based question storage that can be easily updated

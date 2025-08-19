@@ -1,38 +1,31 @@
-import random
-
-choices = ["rock", "paper", "scissors"]
-user_choice = input("Choose rock, paper, or scissors: ").lower()
-computer_choice = random.choice(choices)
-
-print(f"You chose: {user_choice}")
-print(f"Computer chose: {computer_choice}")
-
-if user_choice == computer_choice:
-    print("It's a tie!")
-elif (
-    (user_choice == "rock" and computer_choice == "scissors") or
-    (user_choice == "paper" and computer_choice == "rock") or
-    (user_choice == "scissors" and computer_choice == "paper")
-):
-    print("You win! 🎉")
-else:
-    print("You lose! 😢")
+# === 🎯 ROCK PAPER SCISSORS - PYTHON VERSION ===
+# 
+# Start by asking Continue's chat:
+# "Create a Python rock paper scissors game that:
+# - Uses random.choice() to pick the computer's move from ['rock', 'paper', 'scissors']
+# - Asks the user to input their choice
+# - Compares the choices and determines the winner using game rules
+# - Shows both choices and declares the result (win/lose/tie)
+# - Uses fun emojis in the output messages"
+# You can directly copy and paste the above into the chat interface in the left-hand sidebar.
+# After Continue creates your script, you can copy and paste it into this file and/or you can enhance it further!
 
 
-# 🛠️ Try using these Continue code extension features:
-# - Use "Ask" to turn this into a reusable function (e.g., play_round())
-# - Ask: "How can I add score tracking and let the user play multiple rounds?"
-# - Highlight the win/lose logic and use "Explain this" to break down how the outcome is determined
-# - Use "Refactor this" to simplify the conditional logic or make the code cleaner
-# - Ask Continue: "Add fun taunts, random victory messages, or terminal colors to the results"
+# 🛠️ Once you have working code, try these Continue features:
+# - In the Chat: Ask "How can I add score tracking?" or "How do I create a play_round() function?"
+# - Highlight any section → "Add Highlighted Code to Context" → Ask about the game rules
+# - Highlight any section → "Edit Highlighted Code" → "simplify this logic"
+# - Highlight the entire script → "Optimize this Code" for better structure
+# - Highlight complex sections → "Write Comments for this Code" for clarity
 
-# === 💡 Extending the Application ===
-# Try these with Continue after the game works:
-# - Add a loop to play best of 3 (or best of 5)
-# - Handle unexpected inputs (e.g., typos or invalid choices)
-# - Add terminal color for win/loss messages and tie (🎨)
-# - Include emojis or randomized feedback (“Rock crushes scissors! 💥”)
-# - Show a final win count or percentage after several rounds
+# === 💡 Ideas to Enhance Your Game ===
+# Ask Continue's chat to help you add these features:
+# - Best of 3 or best of 5 gameplay with score tracking
+# - Input validation to handle typos and invalid choices
+# - Colorful terminal output using colorama library
+# - Fun victory messages and taunts for different outcomes
+# - Statistics tracking (win percentage, favorite move, etc.)
+# - Play against different AI strategies (random, pattern-based, etc.)
 
 
 
