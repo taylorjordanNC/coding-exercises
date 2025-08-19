@@ -23,15 +23,15 @@ else:
 
 print(f"\nYour final score: {score}/3")
 
-# 🛠️ Try using these Roo Code features:
-# - Use “Ask” to turn the repeated input logic into a reusable function
-# - Ask: “How can I store the questions and answers in a dictionary or list?”
-# - Highlight one of the if/else blocks and use “Explain this” to understand comparison logic
-# - Use “Improve this code” or “Refactor this” to simplify repetition or improve structure
-# - Ask: “Add terminal colors or emojis for correct/incorrect answers”
+# 🛠️ Try using these Continue code extension features:
+# - Use "Ask" to turn the repeated input logic into a reusable function
+# - Ask: "How can I store the questions and answers in a dictionary or list?"
+# - Highlight one of the if/else blocks and use "Explain this" to understand comparison logic
+# - Use "Improve this code" or "Refactor this" to simplify repetition or improve structure
+# - Ask Continue: "Add terminal colors or emojis for correct/incorrect answers"
 
 # === 💡 Extending the Application ===
-# Try these with Roo Code after the quiz works:
+# Try these with Continue after the quiz works:
 # - Shuffle the question order each time the quiz runs
 # - Add more questions or load them from a file or list
 # - Display feedback based on the final score (e.g. "Nice job!" or "Try again!")

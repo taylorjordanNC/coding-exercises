@@ -16,15 +16,15 @@ while True:
         print("Not quite, try again!")
 
 
-# 🛠️ Try using these Roo Code features:
-# - Use “Ask” to turn the scrambling logic into a reusable function
-# - Ask: “How can I make this work with a list of words instead of just one?”
-# - Highlight the while loop and use “Explain this” to better understand the input logic
-# - Use “Improve this code” or “Refactor this” to make it cleaner or more modular
-# - Ask: “Make the game more engaging with fun prompts and encouragement”
+# 🛠️ Try using these Continue code extension features:
+# - Use "Ask" to turn the scrambling logic into a reusable function
+# - Ask: "How can I make this work with a list of words instead of just one?"
+# - Highlight the while loop and use "Explain this" to better understand the input logic
+# - Use "Improve this code" or "Refactor this" to make it cleaner or more modular
+# - Ask Continue: "Make the game more engaging with fun prompts and encouragement"
 
 # === 💡 Extending the Application ===
-# Try these with Roo Code after the game works:
+# Try these with Continue after the game works:
 # - Add a “best of 3” or score-tracking feature across multiple rounds
 # - Give playful hints like “It starts with ‘p’...” or “You’re getting warmer 🔥”
 # - Add emojis 🎉 or terminal color for win/loss messages for a more dynamic experience

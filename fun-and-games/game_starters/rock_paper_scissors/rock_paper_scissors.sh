@@ -16,15 +16,15 @@ else
     echo "You lose! 😢"
 fi
 
-# 🛠️ Try using these Roo Code features:
-# - Use “Ask” to turn the game logic into a reusable function
-# - Ask: “How can I let the user play multiple rounds and track their score?”
-# - Highlight the if/elif/else block and use “Explain this” to break down the win conditions
-# - Try “Refactor this” to make the conditionals easier to read or modular
-# - Ask Roo: “Add a random taunt or cheer based on the result” or “Color the output using ANSI codes”
+# 🛠️ Try using these Continue code extension features:
+# - Use "Ask" to turn the game logic into a reusable function
+# - Ask: "How can I let the user play multiple rounds and track their score?"
+# - Highlight the if/elif/else block and use "Explain this" to break down the win conditions
+# - Try "Refactor this" to make the conditionals easier to read or modular
+# - Ask Continue: "Add a random taunt or cheer based on the result" or "Color the output using ANSI codes"
 
 # === 💡 Extending the Application ===
-# Try these with Roo Code after the game works:
+# Try these with Continue after the game works:
 # - Add a “best of 3” or endless mode with a scoreboard
 # - Handle case-insensitive input (e.g. Rock, ROCK, rock)
 # - Add emojis or color-coded output for more fun 🎨

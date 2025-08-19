@@ -19,12 +19,12 @@ while true; do
   fi
 done
 
-# 🛠️ Try using these Roo Code features:
-# - Use the “Ask” tab to modify the shuffle logic (e.g., make it reusable for any word)
-# - Ask: “How can I scramble and compare multiple words in Bash?”
-# - Highlight the loop and use “Explain this” to understand how it handles user input
-# - Use “Refactor this” to clean up the guess-checking logic or improve readability
-# - Ask Roo: “Make the output more interactive with random praise or hints”
+# 🛠️ Try using these Continue code extension features:
+# - Use the "Ask" tab to modify the shuffle logic (e.g., make it reusable for any word)
+# - Ask: "How can I scramble and compare multiple words in Bash?"
+# - Highlight the loop and use "Explain this" to understand how it handles user input
+# - Use "Refactor this" to clean up the guess-checking logic or improve readability
+# - Ask Continue: "Make the output more interactive with random praise or hints"
 
 # === 💡 Extending the Application ===
 # - Add a “best of 3” or score-tracking feature using a loop and counter
