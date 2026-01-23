@@ -2,7 +2,8 @@
 
 # === 🎯 SIMPLE QUIZ GAME - BASH VERSION ===
 # 
-# Start by asking Continue's chat:
+# == INSTRUCTIONS ==
+# Start by copying and pasting the following prompt (contained in quotes) into Continue's chat:
 # "Create a Bash quiz script that:
 # - Has 3 hardcoded questions with answers
 # - Uses read -p to get user input
@@ -11,20 +12,17 @@
 # - Uses if statements with [[ ]] for string comparison
 # - Shows the final score at the end"
 # You can directly copy and paste the above into the chat interface in the left-hand sidebar.
-# After Continue creates your script, you can copy and paste it into this file and/or you can enhance it further!
+# After Continue creates your script, you can copy and paste the full script into this file above the commented instructions.
 
 # 🛠️ Once you have working code, try these Continue features:
-# - In the Chat: Ask "How can I create Bash functions?" or "How do I use arrays for questions?"
-# - Highlight any section → "Add Highlighted Code to Context" → Ask about functions
-# - Highlight any section → "Edit Highlighted Code" → "simplify this pattern"
-# - Highlight the entire script → "Optimize this Code" for better structure
-# - Highlight complex sections → "Write Comments for this Code" for clarity
+# - Highlight any section → "Add to Chat" → "How can I optimize this code?"
+# - Highlight any section → "Add to Edit" → "Make this code enterprise-grade"
+# - Highlight the entire script → "Add to Edit" → "Add comments to improve readability"
 
-# === 💡 Ideas to Enhance Your Game ===
-# Ask Continue's chat to help you add these features:
-# - Question bank stored in Bash arrays, randomly shuffled
-# - More flexible answer checking (partial matches, multiple correct answers)
-# - Emoji feedback (✅ ❌) and ANSI color codes for visual appeal
-# - Score-based encouragement messages
-# - Question categories with different difficulty levels
-# - File-based question storage that can be easily updated
+# === 💡 OPTIONAL: Ideas to Enhance Your Game ===
+# Use these prompts to ask Continue's chat or edit feature to help you add to your game file:
+# - Create an array of 10+ questions and use shuf to randomly select 5 questions each game
+# - Display different feedback based on score percentage using if statements ("Excellent!" for 90%+, "Good job!" for 70-89%, etc.)
+# - Add a 10-second timer per question using the timeout command with read, mark as wrong if time runs out
+# - Organize questions by category (history, science, programming) arrays and let users choose which category to play
+# - Implement difficulty levels where easy/medium/hard questions are worth 1/2/3 points respectively using case statements

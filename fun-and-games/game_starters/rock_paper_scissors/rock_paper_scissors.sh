@@ -2,7 +2,8 @@
 
 # === 🎯 ROCK PAPER SCISSORS - BASH VERSION ===
 # 
-# Start by asking Continue's chat:
+# == INSTRUCTIONS ==
+# Start by copying and pasting the following prompt (contained in quotes) into Continue's chat:
 # "Create a Bash script for rock paper scissors that:
 # - Uses an array ('rock' 'paper' 'scissors') and $RANDOM to pick computer choice
 # - Reads user input with read -p
@@ -10,20 +11,17 @@
 # - Shows both choices and declares the result with emojis
 # - Handles all the rock paper scissors game logic"
 # You can directly copy and paste the above into the chat interface in the left-hand sidebar.
-# After Continue creates your script, you can copy and paste it into this file and/or you can enhance it further!
+# After Continue creates your script, you can copy and paste the full script into this file above the commented instructions.
 
-# 🛠️ Once you have working code, try these Continue features:
-# - In the Chat: Ask "How can I add score tracking?" or "How do I create Bash functions?"
-# - Highlight any section → "Add Highlighted Code to Context" → Ask about the logic
-# - Highlight any section → "Edit Highlighted Code" → "make this more readable"
-# - Highlight the entire script → "Optimize this Code" for better structure
-# - Highlight complex sections → "Write Comments for this Code" for clarity
+# 🛠️ Once you have the first draft of working code, try these Continue features:
+# - Highlight any section → "Add to Chat" → Ask the model to explain the game rules.
+# - Highlight the entire script → "Add to Edit" → Ask the model to make the code enterprise-grade.
+# - Highlight complex sections → "Add to Edit" → Ask the model to add comments to the code for clarity
 
-# === 💡 Ideas to Enhance Your Game ===
-# Ask Continue's chat to help you add these features:
-# - Best of 3 or endless mode with scoreboard tracking
-# - Case-insensitive input handling (Rock, ROCK, rock all work)
-# - ANSI color codes for colorful win/lose messages
-# - Countdown timer before revealing computer's choice
-# - Game statistics logged to a file
-# - Different computer AI strategies (not just random)
+
+# === 💡 OPTIONAL: Ideas to Enhance Your Game ===
+# Use these prompts to ask Continue's chat or edit feature to help you add to your game file:
+# - Add the ability to play best of 3 or best of 5 matches with score tracking
+# - Add input validation to handle typos and invalid choices
+# - Create different celebration messages based on how the player wins (e.g., "Rock crushes scissors!")
+# - Implement difficulty levels (easy = random, medium = counters most common move, hard = pattern recognition)

@@ -1,6 +1,7 @@
 # === 🎯 ROCK PAPER SCISSORS - PYTHON VERSION ===
 # 
-# Start by asking Continue's chat:
+# == INSTRUCTIONS ==
+# Start by copying and pasting the following prompt (contained in quotes) into Continue's chat:
 # "Create a Python rock paper scissors game that:
 # - Uses random.choice() to pick the computer's move from ['rock', 'paper', 'scissors']
 # - Asks the user to input their choice
@@ -8,24 +9,21 @@
 # - Shows both choices and declares the result (win/lose/tie)
 # - Uses fun emojis in the output messages"
 # You can directly copy and paste the above into the chat interface in the left-hand sidebar.
-# After Continue creates your script, you can copy and paste it into this file and/or you can enhance it further!
+# After Continue creates your script, you can copy and paste the full script into this file above the commented instructions.
 
 
-# 🛠️ Once you have working code, try these Continue features:
-# - In the Chat: Ask "How can I add score tracking?" or "How do I create a play_round() function?"
-# - Highlight any section → "Add Highlighted Code to Context" → Ask about the game rules
-# - Highlight any section → "Edit Highlighted Code" → "simplify this logic"
-# - Highlight the entire script → "Optimize this Code" for better structure
-# - Highlight complex sections → "Write Comments for this Code" for clarity
+# 🛠️ Once you have the first draft of working code, try these Continue features:
+# - Highlight any section → "Add to Chat" → Ask the model to explain the game rules.
+# - Highlight the entire script → "Add to Edit" → Ask the model to make the code enterprise-grade.
+# - Highlight complex sections → "Add to Edit" → Ask the model to add comments to the code for clarity
 
-# === 💡 Ideas to Enhance Your Game ===
-# Ask Continue's chat to help you add these features:
-# - Best of 3 or best of 5 gameplay with score tracking
-# - Input validation to handle typos and invalid choices
-# - Colorful terminal output using colorama library
-# - Fun victory messages and taunts for different outcomes
-# - Statistics tracking (win percentage, favorite move, etc.)
-# - Play against different AI strategies (random, pattern-based, etc.)
+
+# === 💡 OPTIONAL: Ideas to Enhance Your Game ===
+# Use these prompts to ask Continue's chat or edit feature to help you add to your game file:
+# - Add the ability to play best of 3 or best of 5 matches with score tracking
+# - Add input validation to handle typos and invalid choices
+# - Create different celebration messages based on how the player wins (e.g., "Rock crushes scissors!")
+# - Implement difficulty levels (easy = random, medium = counters most common move, hard = pattern recognition)
 
 
 
